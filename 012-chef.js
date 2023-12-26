@@ -38,7 +38,7 @@ function removeDupesFromArray(arr){
     // use filter to loop thorugh each item in the arr
     return arr.filter(item => {
        if(!newArr[item]){ 
-           newArr[item] = true //using [] notaion
+           newArr[item] = true //using [] notation
            return true
        }
        return false
@@ -53,4 +53,4 @@ function removeDupesFromArray(arr){
     return [...new Set(arr)];
 }
 
-console.log(removeDupesFromArray([1,2,2,4,4,4,4,6,7,8]));
+console.log(removeDupesFromArray(eggScrambleRecipe));

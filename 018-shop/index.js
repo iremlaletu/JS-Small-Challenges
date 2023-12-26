@@ -10,7 +10,7 @@ Example output: 73.44
 */
 
 function total(arr){
-    // calling the reduce on my "arr" and return
+    // calling the reduce on my "arr"`
     const total = arr.reduce((acc, curr) => { // creating the anonymous function
         return acc + curr.price
         //reduce can take function which I created anonymous and starting value which is 0
